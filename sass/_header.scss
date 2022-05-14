@@ -1,0 +1,39 @@
+header{
+    background-color: #ffffff;
+    padding: 2rem 0;
+    .logo__navcontainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-family: 'Arvo', serif;
+            .Header__logo{
+                width: 250px;
+                height: 250px;
+            }
+        }
+        .header__nav{
+            ul{
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                li{
+                    display: inline-block;
+                    a{
+                        display: block;
+                        padding: 0.5rem 1rem;
+                        &:hover{
+                            background: rgb(115, 209, 89);
+                            transition: all 0.4s linear;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+

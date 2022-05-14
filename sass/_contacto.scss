@@ -1,0 +1,57 @@
+.main__contact{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(79, 155, 62, 0.856);
+    align-items: center;
+    color: black;
+    margin: 2%;
+    .head__inputs{
+        margin-top: 15px;
+        .contact_title{
+            padding: 2.5rem;
+            font-family: 'Anton', sans-serif;
+            letter-spacing: 10px;
+        }
+        .contact__contact{
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            list-style: none;
+            gap: 10px;
+        }
+    }
+    .inputs{
+        .consulta_text {
+            display: flex;
+            flex-direction: column;
+            gap: 1vw;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            h3{
+                font-family: 'Anton', sans-serif;
+                letter-spacing: 10px;
+            }
+            .inputs__pedidos {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5vw;
+                margin-top: 1vw;
+                align-items: center;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1010px) {
+    .main__contact{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    
+    #maps {
+        width: 100%;
+    }
+
+}
+
